@@ -1,0 +1,222 @@
+
+[General information]
+---------------------------------------------------------------------
+CFG_VEND_ID | CFG_DEV_ID                        10EC 8125
+CFG_SUBSYS_VEND_ID | CFG_SUBSYS_ID              10EC 0123
+CFG_REV_ID                                      5
+HEADER_TYPE                                     0x0
+BAR0                                            3f01
+BAR1                                            0
+BAR2                                            a05f0004
+BAR3                                            0
+BAR4                                            a05ec004
+BAR5                                            0
+CLASS_CODE                                      020000
+CAPABILITIES_PTR                                0x40
+INTERRUPT_LINE                                  0
+INTERRUPT_PIN                                   1
+---------------------------------------------------------------------
+
+[PM Cap]
+---------------------------------------------------------------------
+PM_CAP_ON                                       1
+PM_CAP_BASEPTR                                  0x40
+PM_CAP_NEXTPTR                                  0x50
+PM_CAP_ID                                       1
+PM_CAP_PME_CLOCK                                0
+PM_CAP_DSI                                      0
+PM_CAP_AUXCURRENT                               7
+PM_CAP_D1SUPPORT PM_CAP_D2SUPPORT               1 1
+PM_CAP_PMESUPPORT                               0x01f
+PM_CAP_VERSION                                  3
+---------------------------------------------------------------------
+
+[PMCSR]
+---------------------------------------------------------------------
+PM_CSR_NOSOFTRST                                1
+PMCSR PWR STATE                                 0
+PMCSR PMESTATUS                                 0
+PMCSR DATA SCALE                                0
+PMCSR DATA SELECT                               0
+PMCSR PME ENABLE                                0
+PMCSR dynamic data                              0
+---------------------------------------------------------------------
+
+[PCI Express Capability - 0x3]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x0
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x03
+---------------------------------------------------------------------
+
+[MSI CAP]
+---------------------------------------------------------------------
+MSI_CAP_ON                                      1
+MSI_BASE_PTR                                    0x50
+MSI_CAP_NEXTPTR                                 0x70
+MSI_CAP_ID                                      0x05
+MSI_CAP_MULTIMSGCAP                             0
+MSI_CAP_MULTIMSG_EXTENSION                      0
+MSI_CAP_64_BIT_ADDR_CAPABLE                     1
+MSI_CAP_PER_VECTOR_MASKING_CAPABLE              1
+---------------------------------------------------------------------
+
+[PE CAP]
+---------------------------------------------------------------------
+PCIE_CAP_ON                                     1
+PCIE_CAP_BASEPTR                                0x70
+PCIE_CAP_NEXTPTR                                0xb0
+PCIE_CAP_CAPABILITY_ID                          0x10
+PCIE_CAP_CAPABILITY_VERSION                     0x2
+PCIE_CAP_DEVICE_PORT_TYPE                       0x0
+PCIE_CAP_SLOT_IMPLEMENTED                       0x0
+---------------------------------------------------------------------
+
+[PCI Express Device Capabilities]
+---------------------------------------------------------------------
+DEV_CAP_MAX_PAYLOAD_SUPPORTED                   1
+DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT               0
+DEV_CAP_EXT_TAG_SUPPORTED                       0
+DEV_CAP_ENDPOINT_L0S_LATENCY                    3
+DEV_CAP_ENDPOINT_L1_LATENCY                     6
+DEV_CAP_ROLE_BASED_ERROR                        1
+DEV_CAP_ENABLE_SLOT_PWR_LIMIT_VALUE             1
+DEV_CAP_ENABLE_SLOT_PWR_LIMIT_SCALE             1
+DEV_CAP_FUNCTION_LEVEL_RESET_CAPABLE            0
+---------------------------------------------------------------------
+
+[Device Control]
+---------------------------------------------------------------------
+Correctable Error Reporting Enable              0
+Non-Fatal Error Reporting Enable                0
+Fatal Error Reporting Enable                    0
+Unsupported Request Reporting Enable            0
+Enable Relaxed Ordering                         1
+Max_Payload_Size                                1
+DEV_CONTROL_EXT_TAG_DEFAULT                     0
+Phantom Functions Enable                        0
+Auxiliary Power PM Enable                       0
+Enable No Snoop                                 0
+Max_Read_Request_Size                           4
+Configuration retry status enable               0
+---------------------------------------------------------------------
+
+[PCI Express Link Capabilities]
+---------------------------------------------------------------------
+LINK_CAP_MAX_LINK_SPEED                         2
+LINK_CAP_MAX_LINK_WIDTH                         1
+LINK_CAP_ASPM_SUPPORT                           3
+LINK_CAP_L0S_EXIT_LATENCY                       7
+LINK_CAP_L1_EXIT_LATENCY                        6
+LINK_CAP_CLOCK_POWER_MANAGEMENT                 1
+LINK_CAP_ASPM_OPTIONALITY                       1
+LINK_CAP_RSVD_23                                8
+---------------------------------------------------------------------
+
+[Link Control]
+---------------------------------------------------------------------
+LINK_CONTROL_RCB                                0
+---------------------------------------------------------------------
+
+[Link Status]
+---------------------------------------------------------------------
+LINK_STATUS_SLOT_CLOCK_CONFIG                   1
+LINK_SPEED                                      2
+LINK_WIDTH                                      1
+---------------------------------------------------------------------
+
+[PCI Express Device Capabilities 2]
+---------------------------------------------------------------------
+CPL_TIMEOUT_RANGES_SUPPORTED                    1
+CPL_TIMEOUT_DISABLE_SUPPORTED                   1
+---------------------------------------------------------------------
+
+[Device Control 2]
+---------------------------------------------------------------------
+Completion Timeout value                        0
+Completion Timeout disable                      0
+---------------------------------------------------------------------
+
+[PCI Express Link Capabilities 2]
+---------------------------------------------------------------------
+Link speeds supported                           3
+---------------------------------------------------------------------
+
+[Link Control 2]
+---------------------------------------------------------------------
+LINK_CTRL2_TARGET_LINK_SPEED                    2
+LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE          0
+LINK_CTRL2_DEEMPHASIS                           0
+Enter Compliance                                0
+Transmit Margin                                 0
+Enter Modified Compliance                       0
+Compliance SOS                                  0
+---------------------------------------------------------------------
+
+[Link Status 2]
+---------------------------------------------------------------------
+Current De-emphasis Level                       0
+---------------------------------------------------------------------
+
+[MSIX CAP]
+---------------------------------------------------------------------
+MSIX_CAP_ON                                     1
+MSIX_CAP_BASEPTR                                0xb0
+MSIX_CAP_NEXTPTR                                0xd0
+MSIX_CAP_ID                                     0x011
+MSIX_ENABLED                                    1
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0x1]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x148
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x01
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0x2]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x168
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x02
+---------------------------------------------------------------------
+
+[PCI DSN Capability - 0x3]
+---------------------------------------------------------------------
+DSN_CAP_NEXTPTR                                 0x178
+DSN_CAP_ON                                      1
+DSN_CAP_ID                                      0x03
+DSN                                             0x01000000684ce000
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0xb]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x0
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x0b
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0x17]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x204
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x017
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0x18]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x20c
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x018
+---------------------------------------------------------------------
+
+[PCI Express Extended Capability - 0x1e]
+---------------------------------------------------------------------
+UNK_EXT_CAP_NEXTPTR                             0x21c
+UNK_EXT_CAP_ON                                  1
+UNK_EXT_CAP_ID                                  0x01e
+---------------------------------------------------------------------
+
+[drvscan] scan is complete [353ms]
+
+build date: Jun  3 2025, 16:44:14
