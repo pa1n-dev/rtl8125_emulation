@@ -63,7 +63,7 @@ module pcie_7x_0_core_top # (
   // MSI-X Capability offset
   parameter         MSIX_CAP_ON = "TRUE",
   parameter [7:0]   MSIX_BASE_PTR = 8'hB0,
-  parameter [7:0]   MSIX_CAP_NEXTPTR = 8'hD0,
+  parameter [7:0]   MSIX_CAP_NEXTPTR = 8'h100,
 
   // PCI Power Management Capability Offset
   parameter         PM_CAP_ON = "TRUE",
@@ -88,7 +88,7 @@ module pcie_7x_0_core_top # (
   // AER CAP
   parameter         AER_CAP_ON = "TRUE",
   parameter [11:0]  AER_BASE_PTR = 12'h100,
-  parameter [11:0]  AER_CAP_NEXTPTR = 12'h148,
+  parameter [11:0]  AER_CAP_NEXTPTR = 12'h168,
 
   // VSEC CAP
   parameter         VSEC_CAP_ON = "TRUE",
