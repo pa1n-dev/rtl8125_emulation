@@ -3,6 +3,8 @@
 > [!WARNING]  
 > #### For educational purposes only
 
+Tested on Easy Anti-Cheat (EAC) in APEX Legends.
+
 ## Usage
 
 ### 1. Find Memory Address
