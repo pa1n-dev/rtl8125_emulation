@@ -37,6 +37,6 @@ python3 dump.py -i bar2.bin -o bar2.v
 
 ## Result of work
 
-![Driver](https://github.com/user-attachments/assets/352a1fc4-4c65-4445-a8b7-6185b530dce0)
+![Driver](https://github.com/user-attachments/assets/cf9487e3-0dd3-44d5-a5c7-f98f4afea3e8)
 
-![LeCroy](https://github.com/user-attachments/assets/af4eec3f-de0e-43b0-92e6-28fe7e99bd67)
+![LeCroy](https://github.com/user-attachments/assets/a198e107-cd12-44e0-bbf0-bb806e3f200b)
