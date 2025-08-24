@@ -4,6 +4,7 @@
 > #### For educational purposes only
 
 Tested on Easy Anti-Cheat (EAC) in APEX Legends.
+
 Tested on BattlEye in Arma3/DayZ.
 
 ## Usage
