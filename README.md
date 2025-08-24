@@ -8,9 +8,9 @@ Tested on BattlEye in Arma3/DayZ.
 
 ## Usage
 
-Download CH347FPGATool [from](https://github.com/WCHSoftGroup/ch347/releases)
+Download CH347FPGATool [from](https://github.com/WCHSoftGroup/ch347/releases).
 
-Download firmware for you DMA [from](https://github.com/pa1n-dev/rtl8125_emulation/releases)
+Download firmware for you DMA [from](https://github.com/pa1n-dev/rtl8125_emulation/releases).
 
 Open CH347FPGATool:
 
@@ -79,6 +79,4 @@ For this, it's convenient to use LeCroy TeleScan PE or [drvscan](https://github.
 
 ## Credits
 
-- Special thanks to:
-
-[ekknod](https://github.com/ekknod)
+- Special thanks to: [ekknod](https://github.com/ekknod)
