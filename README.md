@@ -35,23 +35,23 @@ sudo lspci -vv -s 05:00.0
 output:
 
 ```
-05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller (rev 02)
+05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTLXXXX PCI Express Gigabit Ethernet Controller (rev 02)
 	Subsystem: Realtek Semiconductor Co., Ltd. Device 0123
 	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
 	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
 	Latency: 0, Cache Line Size: 64 bytes
 	Interrupt: pin A routed to IRQ 17
 	Region 0: I/O ports at 3000 [size=256]
-	Region 2: Memory at a0500000 (64-bit, non-prefetchable) [size=4K]
-	Region 4: Memory at 4010300000 (64-bit, prefetchable) [size=64K]
+	Region 2: Memory at ADDRESS_1 (64-bit, non-prefetchable) [size=SIZE_1 K]
+	Region 4: Memory at ADDRESS_2 (64-bit, prefetchable) [size=6SIZE_2 K]
 
 ```
 
 ### 2. Create Memory Dump
 
 ```bash
-sudo dd if=/dev/mem of=bar2.bin bs=1 count=$((64*1024)) skip=$((0xa0500000)) iflag=skip_bytes
-sudo dd if=/dev/mem of=bar4.bin bs=1 count=$((16*1024)) skip=$((0x4010300000)) iflag=skip_bytes
+sudo dd if=/dev/mem of=bar2.bin bs=1 count=$((SIZE_1*1024)) skip=$((0xADDRESS_1)) iflag=skip_bytes
+sudo dd if=/dev/mem of=bar4.bin bs=1 count=$((SIZE_2*1024)) skip=$((0xADDRESS_2)) iflag=skip_bytes
 ```
 
 Where is 0xdf200000 - Bar2 address and 64 - is size in K
