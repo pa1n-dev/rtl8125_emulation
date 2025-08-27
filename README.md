@@ -43,7 +43,7 @@ output:
 	Interrupt: pin A routed to IRQ 17
 	Region 0: I/O ports at 3000 [size=256]
 	Region 2: Memory at ADDRESS_1 (64-bit, non-prefetchable) [size=SIZE_1 K]
-	Region 4: Memory at ADDRESS_2 (64-bit, prefetchable) [size=6SIZE_2 K]
+	Region 4: Memory at ADDRESS_2 (64-bit, prefetchable) [size=SIZE_2 K]
 
 ```
 
