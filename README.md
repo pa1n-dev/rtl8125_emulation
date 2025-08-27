@@ -27,17 +27,24 @@ Open CH347FPGATool:
 ### 1. Find Bar's Address
 
 ```bash
-sudo lspci -v -s 04:00.0
+sudo lspci -vv -s 05:00.0
 ```
 
-04:00.0 — This is your PCI device ID
+05:00.0 — This is your PCI device ID
 
 output:
 
 ```
-04:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)
-        Memory at df200000 (64-bit, non-prefetchable) [size=64K]
-        Memory at df210000 (64-bit, non-prefetchable) [size=16K]
+05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller (rev 02)
+	Subsystem: Realtek Semiconductor Co., Ltd. Device 0123
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	Region 0: I/O ports at 3000 [size=256]
+	Region 2: Memory at a0500000 (64-bit, non-prefetchable) [size=4K]
+	Region 4: Memory at 4010300000 (64-bit, prefetchable) [size=64K]
+
 ```
 
 ### 2. Create Memory Dump
