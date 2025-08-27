@@ -50,8 +50,8 @@ output:
 ### 2. Create Memory Dump
 
 ```bash
-sudo dd if=/dev/mem of=bar2.bin bs=1 count=$((64*1024)) skip=$((0xdf200000)) iflag=skip_bytes
-sudo dd if=/dev/mem of=bar4.bin bs=1 count=$((16*1024)) skip=$((0xdf210000)) iflag=skip_bytes
+sudo dd if=/dev/mem of=bar2.bin bs=1 count=$((64*1024)) skip=$((0xa0500000)) iflag=skip_bytes
+sudo dd if=/dev/mem of=bar4.bin bs=1 count=$((16*1024)) skip=$((0x4010300000)) iflag=skip_bytes
 ```
 
 Where is 0xdf200000 - Bar2 address and 64 - is size in K
